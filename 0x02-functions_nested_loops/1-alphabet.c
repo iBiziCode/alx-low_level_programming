@@ -5,7 +5,7 @@
 * Return: always 0 for success
 */
 
-void print_alphabets(void)
+void print_alphabet(void);
 {
 	char lowcase;
 

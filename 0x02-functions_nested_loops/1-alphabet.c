@@ -10,7 +10,7 @@ void print_alphabets(void)
 	char lowcase;
 
 	for (lowcase = 'a'; lowcase <= 'z'; lowcase++)
-		_putchar(lowercase);
+		_putchar(lowcase);
 
 	_putchar('\n');
 }

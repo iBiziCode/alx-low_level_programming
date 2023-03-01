@@ -16,4 +16,6 @@ int main(void)
 		else if (num % 5 == 0)
 			total += num;
 	}
+
+	return (0);
 }

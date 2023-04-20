@@ -8,7 +8,7 @@
  *
  * Return: Nothing.
  */
-void print_opcodes(void (*address)(void), const int bytes)
+void print_opcodes(int (*address)(int, char **), const int bytes)
 {
 	int i;
 	unsigned char *opcodes = (unsigned char *) address;

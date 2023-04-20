@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Invalid number of arguments\n");
+		printf("Error\n");
 		exit(1);
 	}
 
@@ -26,14 +26,14 @@ int main(int argc, char *argv[])
 
 	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
-		printf("Invalid operation\n");
+		printf("Error\n");
 		exit(2);
 	}
 
 	if ((*op == '/' && num2 == 0) ||
 	    (*op == '%' && num2 == 0))
 	{
-		printf("You can not divide by 0\n");
+		printf("Error\n");
 		exit(3);
 	}
 
